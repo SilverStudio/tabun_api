@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Tabun API</lang>
+	</name>
+	<author>
+		<lang name="default">Neat Sketch</lang>
+	</author>
+	<homepage>http://tabun.everypony.ru/profile/NeatSketch/</homepage>
+	<version>0.0.2</version>
+	<requires>
+		<livestreet>1.0.1</livestreet>
+		<plugins>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Experimental Tabun API.</lang>
+		<lang name="russian">Экспериментальный API Табуна.</lang>
+	</description>
+</plugin>
