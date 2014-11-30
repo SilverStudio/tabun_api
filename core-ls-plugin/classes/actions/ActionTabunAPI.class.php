@@ -77,9 +77,6 @@ class PluginTabunAPI_ActionTabunAPI extends ActionPlugin {
 		// Добавляем код ошибки в ответ
 		$response['api_err'] = $api_error;
 		
-		$response['testfield'] = array();
-		$response['testfield']['subfield'] = 'value';
-		
 		// Форматируем и выводим ответ
 		echo api_format_encode($response);
 	}

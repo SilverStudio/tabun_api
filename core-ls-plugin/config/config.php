@@ -15,7 +15,7 @@
 ---------------------------------------------------------
 */
 
-Config::Set('router.page.test_api', 'PluginTabunAPI_ActionTabunAPI');
+Config::Set('router.page.api', 'PluginTabunAPI_ActionTabunAPI');
 Config::Set('tabunapi.api_dir', './plugins/tabunapi/api'); // относительно корня сайта
 
 return $config;
